@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@media print {
+  @page {
+    size: 330mm 215mm landscape;
+    margin: 10mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  /* Hide app navigation and headers when printing F4 document */
+  header, footer, nav, .print\:hidden {
+    display: none !important;
+  }
+
+  /* Make sure modal container expands full width for paper */
+  #printable-f4-document {
+    width: 100% !important;
+    max-width: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}

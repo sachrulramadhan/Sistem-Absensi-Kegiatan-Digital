@@ -1,0 +1,6 @@
+{
+  "name": "Sistem Absensi Kegiatan Digital",
+  "description": "Aplikasi absensi kegiatan digital terintegrasi Google Sheets dan Google Drive dengan tanda tangan digital, QR Code, dan ekspor Excel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
